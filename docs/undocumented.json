@@ -1,0 +1,166 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Extensions/CodableEx.swift",
+      "line": 28,
+      "symbol": "Encodable.encode()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Extensions/CodableEx.swift",
+      "line": 35,
+      "symbol": "Decodable.parse(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Extensions/CodableEx.swift",
+      "line": 48,
+      "symbol": "Decodable.parse(fromArray:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Extensions/DateEx.swift",
+      "line": 29,
+      "symbol": "Date.string(withFormat:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Extensions/DateEx.swift",
+      "line": 37,
+      "symbol": "Date.string(withDateStyle:timeStyle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Extensions/DateEx.swift",
+      "line": 45,
+      "symbol": "Date.short",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Hashable/HashableFunctions.swift",
+      "line": 28,
+      "symbol": "combineHashes(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Hashable/HashableFunctions.swift",
+      "line": 32,
+      "symbol": "hashArray(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/ILocalNotificationsService.swift",
+      "line": 29,
+      "symbol": "ILocalNotificationsService",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/ILocalNotificationsService.swift",
+      "line": 30,
+      "symbol": "ILocalNotificationsService.RegistrationCompletion",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/ILocalNotificationsService.swift",
+      "line": 43,
+      "symbol": "ILocalNotificationsService.schedule(identifier:date:body:userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/ILocalNotificationsService.swift",
+      "line": 46,
+      "symbol": "ILocalNotificationsService.schedule(identifier:date:title:subtitle:body:userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/ILocalNotificationsService.swift",
+      "line": 50,
+      "symbol": "ILocalNotificationsService.cancel(identifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/ILocalNotificationsService.swift",
+      "line": 52,
+      "symbol": "ILocalNotificationsService.cancellAll()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/LocalNotificationsService.swift",
+      "line": null,
+      "symbol": "LocalNotificationsService",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/LocalNotificationsService.swift",
+      "line": 28,
+      "symbol": "LocalNotificationsService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/LocalNotificationsService.swift",
+      "line": 59,
+      "symbol": "LocalNotificationsService.schedule(identifier:date:body:userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/LocalNotificationsService.swift",
+      "line": 70,
+      "symbol": "LocalNotificationsService.schedule(identifier:date:title:subtitle:body:userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/LocalNotificationsService.swift",
+      "line": 98,
+      "symbol": "LocalNotificationsService.cancel(identifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/LocalNotificationsService.swift",
+      "line": 116,
+      "symbol": "LocalNotificationsService.cancellAll()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/LocalNotificationsService.swift",
+      "line": 139,
+      "symbol": "LocalNotificationsService.didReceiveNotification(response:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/LocalNotificationsService.swift",
+      "line": 147,
+      "symbol": "LocalNotificationsService.userNotificationCenter(_:didReceive:withCompletionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Notifications/Local/LocalNotificationsService.swift",
+      "line": 151,
+      "symbol": "LocalNotificationsService.userNotificationCenter(_:willPresent:withCompletionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions"
+}
