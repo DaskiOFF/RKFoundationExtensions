@@ -13,5 +13,5 @@ xcode_scheme: RKFoundationExtensions
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace RKFoundationExtensions.xcworkspace -scheme RKFoundationExtensionsTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 6,OS=11.3' | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -project RKFoundationExtensions.xcodeproj -scheme RKFoundationExtensionsTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 6,OS=11.3' | xcpretty
 - pod lib lint
