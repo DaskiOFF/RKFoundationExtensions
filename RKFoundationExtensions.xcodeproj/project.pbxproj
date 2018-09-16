@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB80608120CDD11300F56AE0 /* RKFoundationExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80607720CDD11300F56AE0 /* RKFoundationExtensions.framework */; };
-		BB80608620CDD11300F56AE0 /* RKFoundationExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80608520CDD11300F56AE0 /* RKFoundationExtensionsTests.swift */; };
+		BB80608620CDD11300F56AE0 /* StringRegExpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80608520CDD11300F56AE0 /* StringRegExpTests.swift */; };
 		BB80608820CDD11300F56AE0 /* RKFoundationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB80607A20CDD11300F56AE0 /* RKFoundationExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB80609C20CDD37D00F56AE0 /* HashableFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609320CDD37C00F56AE0 /* HashableFunctions.swift */; };
 		BB80609D20CDD37D00F56AE0 /* DateEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609520CDD37C00F56AE0 /* DateEx.swift */; };
@@ -16,6 +16,7 @@
 		BB80609F20CDD37D00F56AE0 /* CodableEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609720CDD37C00F56AE0 /* CodableEx.swift */; };
 		BB8060A020CDD37D00F56AE0 /* ILocalNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609A20CDD37C00F56AE0 /* ILocalNotificationsService.swift */; };
 		BB8060A120CDD37D00F56AE0 /* LocalNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609B20CDD37C00F56AE0 /* LocalNotificationsService.swift */; };
+		BB8297C6214E534300E4C3E6 /* String+RegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297C5214E534300E4C3E6 /* String+RegExp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,7 @@
 		BB80607A20CDD11300F56AE0 /* RKFoundationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKFoundationExtensions.h; sourceTree = "<group>"; };
 		BB80607B20CDD11300F56AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB80608020CDD11300F56AE0 /* RKFoundationExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKFoundationExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB80608520CDD11300F56AE0 /* RKFoundationExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKFoundationExtensionsTests.swift; sourceTree = "<group>"; };
+		BB80608520CDD11300F56AE0 /* StringRegExpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRegExpTests.swift; sourceTree = "<group>"; };
 		BB80608720CDD11300F56AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB80609320CDD37C00F56AE0 /* HashableFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashableFunctions.swift; sourceTree = "<group>"; };
 		BB80609520CDD37C00F56AE0 /* DateEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateEx.swift; sourceTree = "<group>"; };
@@ -41,6 +42,7 @@
 		BB80609720CDD37C00F56AE0 /* CodableEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableEx.swift; sourceTree = "<group>"; };
 		BB80609A20CDD37C00F56AE0 /* ILocalNotificationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILocalNotificationsService.swift; sourceTree = "<group>"; };
 		BB80609B20CDD37C00F56AE0 /* LocalNotificationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotificationsService.swift; sourceTree = "<group>"; };
+		BB8297C5214E534300E4C3E6 /* String+RegExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+RegExp.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +95,7 @@
 		BB80608420CDD11300F56AE0 /* RKFoundationExtensionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				BB80608520CDD11300F56AE0 /* RKFoundationExtensionsTests.swift */,
+				BB80608520CDD11300F56AE0 /* StringRegExpTests.swift */,
 				BB80608720CDD11300F56AE0 /* Info.plist */,
 			);
 			path = RKFoundationExtensionsTests;
@@ -120,6 +122,7 @@
 		BB80609420CDD37C00F56AE0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BB8297C4214E533500E4C3E6 /* String */,
 				BB80609520CDD37C00F56AE0 /* DateEx.swift */,
 				BB80609620CDD37C00F56AE0 /* TimeIntervalEx.swift */,
 				BB80609720CDD37C00F56AE0 /* CodableEx.swift */,
@@ -142,6 +145,14 @@
 				BB80609B20CDD37C00F56AE0 /* LocalNotificationsService.swift */,
 			);
 			path = Local;
+			sourceTree = "<group>";
+		};
+		BB8297C4214E533500E4C3E6 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				BB8297C5214E534300E4C3E6 /* String+RegExp.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB80609E20CDD37D00F56AE0 /* TimeIntervalEx.swift in Sources */,
+				BB8297C6214E534300E4C3E6 /* String+RegExp.swift in Sources */,
 				BB80609F20CDD37D00F56AE0 /* CodableEx.swift in Sources */,
 				BB80609D20CDD37D00F56AE0 /* DateEx.swift in Sources */,
 				BB8060A020CDD37D00F56AE0 /* ILocalNotificationsService.swift in Sources */,
@@ -265,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB80608620CDD11300F56AE0 /* RKFoundationExtensionsTests.swift in Sources */,
+				BB80608620CDD11300F56AE0 /* StringRegExpTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +423,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RKFoundationExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,6 +448,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RKFoundationExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

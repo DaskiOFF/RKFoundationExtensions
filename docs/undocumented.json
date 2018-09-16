@@ -43,6 +43,27 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Extensions/String/String+RegExp.swift",
+      "line": 4,
+      "symbol": "String.containsMatch(pattern:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Extensions/String/String+RegExp.swift",
+      "line": 13,
+      "symbol": "String.isNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Extensions/String/String+RegExp.swift",
+      "line": 17,
+      "symbol": "String.isEmail",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKFoundationExtensions/Sources/Hashable/HashableFunctions.swift",
       "line": 28,
       "symbol": "combineHashes(_:)",

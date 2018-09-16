@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKFoundationExtensions'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Foundation Extensions'
 
 # This description is used to generate tags and improve search results.
@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   Foundation Extensions
+  0.1.1
+    Add extension String+RegExp
 
   0.1.0
     Init

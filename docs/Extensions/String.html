@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Decodable Extension Reference</title>
+    <title>String Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Extension/Decodable" class="dashAnchor"></a>
-    <a title="Decodable Extension Reference"></a>
+    <a name="//apple_ref/swift/Extension/String" class="dashAnchor"></a>
+    <a title="String Extension Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">RKFoundationExtensions Docs</a> (39% documented)</p>
@@ -22,7 +22,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">RKFoundationExtensions Reference</a>
         <img id="carat" src="../img/carat.png" />
-        Decodable Extension Reference
+        String Extension Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -80,10 +80,10 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Decodable</h1>
+            <h1>String</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">Decodable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">String</span></code></pre>
 
                 </div>
               </div>
@@ -95,9 +95,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:s9DecodableP22RKFoundationExtensionsE5parsexSgyp4from_tFZ"></a>
-                    <a name="//apple_ref/swift/Method/parse(from:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:s9DecodableP22RKFoundationExtensionsE5parsexSgyp4from_tFZ">parse(from:)</a>
+                    <a name="/s:SS22RKFoundationExtensionsE13containsMatchSbSS7pattern_tF"></a>
+                    <a name="//apple_ref/swift/Method/containsMatch(pattern:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS22RKFoundationExtensionsE13containsMatchSbSS7pattern_tF">containsMatch(pattern:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -112,7 +112,38 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">parse</span><span class="p">(</span><span class="n">from</span> <span class="nv">json</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">containsMatch</span><span class="p">(</span><span class="nv">pattern</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS22RKFoundationExtensionsE8isNumberSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isNumber" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS22RKFoundationExtensionsE8isNumberSbvp">isNumber</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isNumber</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -122,9 +153,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:s9DecodableP22RKFoundationExtensionsE5parseSayxGSgyp9fromArray_tFZ"></a>
-                    <a name="//apple_ref/swift/Method/parse(fromArray:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:s9DecodableP22RKFoundationExtensionsE5parseSayxGSgyp9fromArray_tFZ">parse(fromArray:)</a>
+                    <a name="/s:SS22RKFoundationExtensionsE7isEmailSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isEmail" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS22RKFoundationExtensionsE7isEmailSbvp">isEmail</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -139,7 +170,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">parse</span><span class="p">(</span><span class="n">fromArray</span> <span class="nv">json</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="k">Self</span><span class="p">]?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isEmail</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
