@@ -1,9 +1,11 @@
 # RKFoundationExtensions
 
 [![CI Status](https://img.shields.io/travis/DaskiOFF/RKFoundationExtensions.svg?style=flat)](https://travis-ci.org/DaskiOFF/RKFoundationExtensions)
+[![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatible-4BC51D.svg?style=flat)](https://cocoapods.org/)
 [![Version](https://img.shields.io/cocoapods/v/RKFoundationExtensions.svg?style=flat)](https://cocoapods.org/pods/RKFoundationExtensions)
-[![License](https://img.shields.io/cocoapods/l/RKFoundationExtensions.svg?style=flat)](https://cocoapods.org/pods/RKFoundationExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/RKFoundationExtensions.svg?style=flat)](https://cocoapods.org/pods/RKFoundationExtensions)
+[![Swift Version](https://img.shields.io/badge/Swift-4.1-brightgreen.svg?style=flat)](https://developer.apple.com/swift)
+[![License](https://img.shields.io/cocoapods/l/RKFoundationExtensions.svg?style=flat)](https://cocoapods.org/pods/RKFoundationExtensions)
 
 ## Documentations
 
