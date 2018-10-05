@@ -7,11 +7,22 @@
 [![Swift Version](https://img.shields.io/badge/Swift-4.1-brightgreen.svg?style=flat)](https://developer.apple.com/swift)
 [![License](https://img.shields.io/cocoapods/l/RKFoundationExtensions.svg?style=flat)](https://cocoapods.org/pods/RKFoundationExtensions)
 
-## Documentations
-
-https://daskioff.github.io/RKFoundationExtensions
+## Content
+- [Requirements](#requirements)
+- [Documentations](#documentations)
+- [Installation](#installation)
+- [Author](#author)
+- [License](#license)
+- [Info](#dependencies)
 
 ## Requirements
+
+- iOS 9.0 and above
+- Swift 4.1
+
+## Documentations
+
+Full documentation for the latest release is available [here](https://daskioff.github.io/RKFoundationExtensions/)
 
 ## Installation
 
@@ -19,7 +30,7 @@ RKFoundationExtensions is available through [CocoaPods](https://cocoapods.org). 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RKFoundationExtensions'
+pod 'RKFoundationExtensions', '~> 0.1'
 ```
 
 ## Author
