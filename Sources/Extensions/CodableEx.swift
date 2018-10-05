@@ -29,6 +29,16 @@ public extension Encodable {
         let encoder = JSONEncoder()
         return try? encoder.encode(self)
     }
+
+    var jsonDict: [AnyHashable: Any?]? {
+        guard let data = encode(),
+            let dict = try? JSONSerialization.jsonObject(with: data, options: .allowFragments),
+            let jsonDict = dict as? [AnyHashable: Any?] else {
+                return nil
+        }
+
+        return jsonDict
+    }
 }
 
 public extension Decodable {
