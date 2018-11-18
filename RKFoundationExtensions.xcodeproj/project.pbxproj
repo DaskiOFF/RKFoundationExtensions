@@ -14,8 +14,6 @@
 		BB80609D20CDD37D00F56AE0 /* DateEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609520CDD37C00F56AE0 /* DateEx.swift */; };
 		BB80609E20CDD37D00F56AE0 /* TimeIntervalEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609620CDD37C00F56AE0 /* TimeIntervalEx.swift */; };
 		BB80609F20CDD37D00F56AE0 /* CodableEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609720CDD37C00F56AE0 /* CodableEx.swift */; };
-		BB8060A020CDD37D00F56AE0 /* ILocalNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609A20CDD37C00F56AE0 /* ILocalNotificationsService.swift */; };
-		BB8060A120CDD37D00F56AE0 /* LocalNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80609B20CDD37C00F56AE0 /* LocalNotificationsService.swift */; };
 		BB8297C6214E534300E4C3E6 /* String+RegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8297C5214E534300E4C3E6 /* String+RegExp.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +38,6 @@
 		BB80609520CDD37C00F56AE0 /* DateEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateEx.swift; sourceTree = "<group>"; };
 		BB80609620CDD37C00F56AE0 /* TimeIntervalEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalEx.swift; sourceTree = "<group>"; };
 		BB80609720CDD37C00F56AE0 /* CodableEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableEx.swift; sourceTree = "<group>"; };
-		BB80609A20CDD37C00F56AE0 /* ILocalNotificationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILocalNotificationsService.swift; sourceTree = "<group>"; };
-		BB80609B20CDD37C00F56AE0 /* LocalNotificationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotificationsService.swift; sourceTree = "<group>"; };
 		BB8297C5214E534300E4C3E6 /* String+RegExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+RegExp.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +102,6 @@
 			children = (
 				BB80609220CDD37C00F56AE0 /* Hashable */,
 				BB80609420CDD37C00F56AE0 /* Extensions */,
-				BB80609820CDD37C00F56AE0 /* Notifications */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -128,23 +123,6 @@
 				BB80609720CDD37C00F56AE0 /* CodableEx.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		BB80609820CDD37C00F56AE0 /* Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				BB80609920CDD37C00F56AE0 /* Local */,
-			);
-			path = Notifications;
-			sourceTree = "<group>";
-		};
-		BB80609920CDD37C00F56AE0 /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				BB80609A20CDD37C00F56AE0 /* ILocalNotificationsService.swift */,
-				BB80609B20CDD37C00F56AE0 /* LocalNotificationsService.swift */,
-			);
-			path = Local;
 			sourceTree = "<group>";
 		};
 		BB8297C4214E533500E4C3E6 /* String */ = {
@@ -267,8 +245,6 @@
 				BB8297C6214E534300E4C3E6 /* String+RegExp.swift in Sources */,
 				BB80609F20CDD37D00F56AE0 /* CodableEx.swift in Sources */,
 				BB80609D20CDD37D00F56AE0 /* DateEx.swift in Sources */,
-				BB8060A020CDD37D00F56AE0 /* ILocalNotificationsService.swift in Sources */,
-				BB8060A120CDD37D00F56AE0 /* LocalNotificationsService.swift in Sources */,
 				BB80609C20CDD37D00F56AE0 /* HashableFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
