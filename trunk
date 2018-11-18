@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+pod trunk push RKFoundationExtensions.podspec
